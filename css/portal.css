@@ -1,3 +1,115 @@
+*{
+    padding: 0% 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+/*otras sugerencias de fondo
+https://www.xtrafondos.com/wallpapers/universo-abstracto-luces-neon-4423.jpg
+https://www.xtrafondos.com/wallpapers/noche-colorida-en-las-montanas-arte-digital-8485.jpg
+https://www.xtrafondos.com/wallpapers/patron-de-mandala-abstracto-7884.jpg
+https://www.xtrafondos.com/wallpapers/poligonos-arte-low-poly-3578.jpg
+https://www.xtrafondos.com/wallpapers/naturaleza-abstracta-7886.jpg
+
+
+*/
 body{
-    background: aqua;
+    background-image:url(https://www.xtrafondos.com/wallpapers/colores-en-ondas-en-movimiento-5961.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 0% 3%;
+}
+
+header{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    background: rgba(28, 42, 44, 0.658);
+    width: 40%;
+}
+nav{
+    background: rgba(35, 64, 68, 0.658);
+    width: 60%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    background: rgb(250, 120, 97);
+    padding: 1%;
+}
+.datos{
+    background: rgb(250, 120, 97);
+    padding: 1%;
+}
+main{
+    background: rgba(243, 219, 230, 0.808);
+    width: 70%;
+    padding: 8px;
+
+}
+main h2{
+    padding: 2%;
+}
+main h3{
+    padding: 2%;
+}
+main p{
+    padding: 2%;
+}
+ul{
+    list-style-type: none;
+    
+}
+main ul{
+    padding: 2%;
+}
+main li{
+    padding: 1%;
+    font-size: 110%;
+}
+a:hover{
+    color: rgb(219, 78, 78);
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+aside{
+    background: rgba(110, 73, 91, 0.877);
+    width: 30%;
+    padding: 8px;
+    
+}
+footer{
+    background: rgba(26, 24, 25, 0.637);
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.op1{
+    padding: 1% 8%;
+}
+.op2{
+    padding: 1% 8%;
+}
+.op3{
+    padding: 1% 8%;
+}
+footer div h3{
+    color: rgb(202, 194, 194);
+}
+footer div li{
+    color: rgb(228, 222, 222);
 }
