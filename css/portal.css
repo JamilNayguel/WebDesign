@@ -43,11 +43,11 @@ nav{
 }
 .menu{
     background: rgb(250, 120, 97);
-    padding: 1%;
+    padding: 2%;
 }
 .datos{
     background: rgb(250, 120, 97);
-    padding: 1%;
+    padding: 2%;
 }
 main{
     background: rgba(243, 219, 230, 0.808);
@@ -89,6 +89,12 @@ aside{
     width: 30%;
     padding: 8px;
     
+}
+aside h1{
+    padding: 5%;
+}
+aside h3{
+    padding: 5%;
 }
 footer{
     background: rgba(26, 24, 25, 0.637);
