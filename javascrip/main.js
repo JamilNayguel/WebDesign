@@ -1,19 +1,21 @@
-// $  ("selector").  acción
 
 
-/*$(document).ready(function(){
+//$  ("selector").  acción
+
+
+$(document).ready(function(){
 
     alert('libreria cargada');
     
 
-});*/
+});
 
 
-$(function(){
+/*$(function(){
 
     $("h3").css({"background":"skyblue"});
 
-});
+});*/
 
 
 $(function(){
@@ -28,7 +30,7 @@ $(function(){
 
 
 $(function(){
-
+    
     $("button").css({"background":"rgba(26, 24, 25, 0.637"});
     $("button").css({"padding":"18px"});
 
@@ -45,7 +47,7 @@ $(function(){
     });
 
     
-
+    
     $(".primero").mouseenter(function(){
         $(".primero").css({"background":"rgba(26, 24, 25, 0.637"});
         
