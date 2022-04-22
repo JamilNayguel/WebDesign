@@ -31,7 +31,7 @@ header{
     flex-wrap: wrap;
 }
 .logo{
-    background: rgba(28, 42, 44, 0.658);
+    background: rgba(54, 49, 46, 0.87);
     width: 40%;
 }
 nav{
@@ -50,16 +50,20 @@ nav{
     padding: 2%;
 }
 main{
-    background: rgba(243, 219, 230, 0.808);
+    background: rgba(248, 234, 241, 0.808);
     width: 70%;
     padding: 8px;
 
+}
+main a{
+    color: rgb(39, 38, 38);
 }
 main h2{
     padding: 2%;
 }
 main h3{
     padding: 2%;
+    font-size: 22px;
 }
 main p{
     padding: 2%;
@@ -73,7 +77,13 @@ main ul{
 }
 main li{
     padding: 1%;
-    font-size: 110%;
+    font-size: 20px;
+    background: #FEAC5E;
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+
+    
+    
 }
 a:hover{
     color: rgb(219, 78, 78);
@@ -85,23 +95,27 @@ a{
 
 
 aside{
-    background: rgba(110, 73, 91, 0.877);
+    background: rgba(204, 230, 222, 0.877);
     width: 30%;
     padding: 8px;
+    border-left: 5px black solid;
     
 }
+
 aside h1{
     padding: 5%;
+    
 }
 aside h3{
     padding: 5%;
+    
 }
 aside p{
     padding: 1% 8%;
     font-size: 20px;
 }
 footer{
-    background: rgba(26, 24, 25, 0.637);
+    background: rgba(22, 21, 22, 0.925);
     width: 100%;
     padding: 8px;
     display: flex;
@@ -112,18 +126,27 @@ footer{
 }
 footer h3{
     font-size: 20px;
+    
 }
 footer li{
     font-size: 18px;
     padding: 10px 0px 0px 15px;
 }
-
+footer a{
+    color: rgb(209, 185, 185);
+}
+.op1 h3{
+    color: rgb(248, 97, 51);
+}
+.op2 h3{
+    color: rgb(248, 97, 51);
+}
+.op3 h3{
+    color: rgb(248, 97, 51);
+}
 .op1{
     padding: 30px 50px;
-}
-
-.op1 {
-
+    
 }
 .op2{
     padding: 30px 50px;
