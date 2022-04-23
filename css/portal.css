@@ -4,15 +4,7 @@
     box-sizing: border-box;
     
 }
-/*otras sugerencias de fondo
-https://www.xtrafondos.com/wallpapers/universo-abstracto-luces-neon-4423.jpg
-https://www.xtrafondos.com/wallpapers/noche-colorida-en-las-montanas-arte-digital-8485.jpg
-https://www.xtrafondos.com/wallpapers/patron-de-mandala-abstracto-7884.jpg
-https://www.xtrafondos.com/wallpapers/poligonos-arte-low-poly-3578.jpg
-https://www.xtrafondos.com/wallpapers/naturaleza-abstracta-7886.jpg
 
-
-*/
 body{
     background-image:url(https://www.xtrafondos.com/wallpapers/colores-en-ondas-en-movimiento-5961.jpg);
     background-size: cover;
@@ -31,24 +23,64 @@ header{
     flex-wrap: wrap;
 }
 .logo{
-    background: rgba(54, 49, 46, 0.87);
-    width: 40%;
+    background: rgba(28, 53, 56, 0.89);
+    width: 30%;
+    text-align: center;
 }
 nav{
-    background: rgba(35, 64, 68, 0.658);
-    width: 60%;
+    background: rgba(28, 53, 56, 0.89);
+    width: 70%;
     justify-content: flex-end;
     display: flex;
     align-items: center;
 }
-.menu{
-    background: rgb(250, 120, 97);
-    padding: 2%;
+
+
+.menu > li {
+    float:left;
+    font-size: 18px;
 }
-.datos{
-    background: rgb(250, 120, 97);
-    padding: 2%;
+
+.menu li a {
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    display:block;
 }
+.men{
+    font-size: 23px;
+}
+
+.menu li a:hover {
+    background-color:#43434396;
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);   
+}
+
+.menu li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.menu li:hover > ul {
+    display:block;
+}
+
+.menu li ul li {
+    position:relative;
+}
+
+.menu li ul li ul {
+    right:-140px;
+    top:0px;
+}
+li ul li a{
+    background: rgba(52, 52, 52,0.8);
+}
+
+
+
+
 main{
     background: rgba(248, 234, 241, 0.808);
     width: 70%;
@@ -67,6 +99,17 @@ main h3{
 }
 main p{
     padding: 2%;
+}
+main ul p{
+    
+    border: 5px solid transparent;
+
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+
+    border-image-slice: 1;
+    
 }
 ul{
     list-style-type: none;
@@ -113,6 +156,9 @@ aside h3{
 aside p{
     padding: 1% 8%;
     font-size: 20px;
+}
+.img{
+    text-align: center;
 }
 footer{
     background: rgba(22, 21, 22, 0.925);
