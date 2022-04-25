@@ -1,0 +1,59 @@
+*{
+    padding: 0% 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image:url(imagenes/diseniohead.png);
+    background-repeat:no-repeat;
+    background-size: 1350px;
+    /*background-position:bottom;
+    background: position y 500px;
+    https://pixabay.com/get/gdf5105a4cfe1bbdabf1a600e90924dc559c89ad93650c5b433f34cec4df7a603696958811ff85eb40f2c85c7d270eb62.jpg
+    */
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    
+    width: 30%;
+    text-align: center;
+}
+nav{
+    
+    width: 70%;
+    align-items: center;
+}
+main{
+    background: #e0d5d5;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.men{
+    background: rgb(189, 204, 51);
+    width: 70%;
+    align-items: center;
+}
+.autor{
+    background: rgb(227, 235, 161);
+    width: 30%;
+    align-items: center;
+}
