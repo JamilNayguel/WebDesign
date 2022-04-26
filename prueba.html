@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <style>
+        *{
+            margin: 0;
+            margin: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        body{
+            background-color: #f7f7f7;
+        }
+        .contenedor{
+            max-width: 1040px;
+            margin: 0 auto;
+        }
+        .slider .item{
+            background-color: #fff;
+            box-shadow: 0 4px 5px #cfcfcf;
+            border-radius: 8px;
+            padding: 15px;
+            border: 3px solid #111;
+        }
+        .slider .slick-slide{
+            margin: 15px;
+        }
+        .slick-dots li.slick-active button::before{
+            color: #ff5722;
+        }
+        .slick-dots li button::before{
+            font-size: 12px;
+        }
+        .slick-next::before,
+        .slick-prev::before{
+            color: #ff8159;
+            font-size: 24px;
+        }
+        .item :hover{
+            display: block;
+            transition: all ease 0.3s;
+            transform: scale(1.1) translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="slider">
+            <div class="item"> <a href="#">espacio 1</a></div>
+            <div class="item"> <a href="#">espacio 2</a></div>
+            <div class="item"> <a href="#">espacio 3</a></div>
+            <div class="item"> <a href="#">espacio 4</a></div>
+            <div class="item"> <a href="#">espacio 5</a></div>
+            <div class="item"> <a href="#">espacio 6</a></div>
+            <div class="item"> <a href="#">espacio 7</a></div>
+            <div class="item"> <a href="#">espacio 8</a></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+
+    <script>
+        $('.slider').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            dots:true,
+            arrows:true,
+            autoplay:true,
+            autoplaySpeed:2000,
+            infinite: true,
+
+        });
+
+    </script>
+</body>
+</html>
