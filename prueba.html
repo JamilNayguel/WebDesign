@@ -15,19 +15,27 @@
             outline: none;
         }
         body{
-            background-color: #f7f7f7;
+            background-color: #eccccc;
         }
         .contenedor{
             max-width: 1040px;
             margin: 0 auto;
         }
         .slider .item{
-            background-color: #fff;
+            background-color: rgba(244, 245, 209, 0.884);
             box-shadow: 0 4px 5px #cfcfcf;
             border-radius: 8px;
             padding: 15px;
-            border: 3px solid #111;
+            border: 3px solid rgba(180, 46, 129, 0.808);
+            text-align: center;
+            
         }
+        a{
+            text-decoration: none;
+            color: rgba(240, 122, 26, 0.829);
+            font-size: 22px;
+        }
+        
         .slider .slick-slide{
             margin: 15px;
         }
@@ -50,18 +58,22 @@
     </style>
 </head>
 <body>
-    <div class="contenedor">
-        <div class="slider">
-            <div class="item"> <a href="#">espacio 1</a></div>
-            <div class="item"> <a href="#">espacio 2</a></div>
-            <div class="item"> <a href="#">espacio 3</a></div>
-            <div class="item"> <a href="#">espacio 4</a></div>
-            <div class="item"> <a href="#">espacio 5</a></div>
-            <div class="item"> <a href="#">espacio 6</a></div>
-            <div class="item"> <a href="#">espacio 7</a></div>
-            <div class="item"> <a href="#">espacio 8</a></div>
+    <main>
+        <div class="contenedor">
+            <div class="slider">
+                <div class="item" id="cbb"> <a href="#">Cochabamba</a></div>
+                <div class="item"> <a href="#">Santa Cruz</a></div>
+                <div class="item"> <a href="#">La Paz</a></div>
+                <div class="item"> <a href="#">Oruro</a></div>
+                <div class="item"> <a href="#">Potosí</a></div>
+                <div class="item"> <a href="#">Beni</a></div>
+                <div class="item"> <a href="#">Pando</a></div>
+                <div class="item"> <a href="#">Tarija</a></div>
+                <div class="item"> <a href="#">Chuquisaca</a></div>
+            </div>
         </div>
-    </div>
+    </main>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     

@@ -1,7 +1,8 @@
 *{
-    padding: 0% 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    outline: none;
     
 }
 
@@ -11,14 +12,37 @@ header{
     background-size: cover;
     background-position-y: -200px;
     background-attachment: fixed;
-    
+    position: relative;
     /*........................*/
 
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+header ::before{
+    content: '';
+    position: absolute;
+    bottom: -105px;
+    left: 0px;
+    width: 99.85%;
+    height: 150px;
+    background-color: rgba(50, 82, 221, 0.397);
+    transform: rotate(2deg);
+    opacity: 0.4;
+}
+header ::after{
+    content: '';
+    position: absolute;
+    bottom: -128px;
+    left: 0px;
+    width: 99.85%;
+    height: 150px;
+    background-color: #e4e0a4;
+    transform: rotate(2deg);
+    
 }
 .logo{
     
@@ -40,18 +64,15 @@ nav{
 }
 main{
     
-    background-image:url(https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:center;
+    
 
 
-
+    background: #e4e0a4;
     width: 100%;
-    height: 400px;
-    display: flex;
+    height: 600px;
+    /*display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
 footer{
@@ -71,4 +92,62 @@ footer{
     background: rgba(32, 32, 31, 0.897);
     width: 30%;
     align-items: center;
+}
+
+
+
+
+/*...............................*/
+
+
+
+
+.contenedor{
+    width: 80%;
+    height: 80px;
+    
+}
+.slider .item{
+    background-color: #e4e0a4;
+    box-shadow: 0 4px 5px #cfcfcf;
+    border-radius: 8px;
+    padding: 12px 5px;
+    border: 3px solid rgba(50, 82, 221, 0.397);
+    text-align: center;
+    
+    
+    
+}
+.slider{
+    left: 130px;
+    top: 45px;
+}
+.slick-trak{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(240, 122, 26, 0.829);
+    font-size: 25px;
+}
+
+.slider .slick-slide{
+    margin: 5px;
+}
+.slick-dots li.slick-active button::before{
+    color: #b95c40;
+}
+.slick-dots li button::before{
+    font-size: 16px;
+}
+.slick-next::before,
+.slick-prev::before{
+    color: #ff8159;
+    font-size: 20px;
+}
+.item :hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
 }
