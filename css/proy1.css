@@ -91,7 +91,8 @@ main{
 h2{
     text-align: center;
     padding: 22px;
-    font-size: 22px;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .departamento{
@@ -101,6 +102,9 @@ h2{
 .imgen{
     width: 50%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 img{
@@ -118,7 +122,8 @@ img{
 .conten h3{
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    font-family: 'Work Sans', sans-serif;
 }
 .par1{
     background: #e4e0a4;
@@ -127,6 +132,7 @@ img{
     border-bottom-right-radius: 50px 100px;
     padding: 20px;
     width: 40%;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /*............footer..............*/
