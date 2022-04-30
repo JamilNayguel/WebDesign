@@ -29,7 +29,7 @@ header ::before{
     left: 0px;
     width: 99.85%;
     height: 150px;
-    background-color: rgba(50, 82, 221, 0.397);
+    background-color: rgba(51, 82, 222, 0.396);
     transform: rotate(2deg);
     opacity: 0.4;
 }
@@ -127,12 +127,19 @@ img{
 }
 .par1{
     background: #e4e0a4;
-    border: 5px double black;
-    border-top-left-radius: 50px 100px;
-    border-bottom-right-radius: 50px 100px;
+    /*border: 8px inset rgba(51, 82, 222, 0.637);*/
+    border-radius: 15px;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     font-family: 'Work Sans', sans-serif;
+
+
+
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image-slice: 1;
 }
 
 /*............footer..............*/
