@@ -3,7 +3,7 @@
 //$  ("selector").  acción
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 
     alert('libreria cargada');
     
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 });*/
 
-
+/*
 $(function(){
 
     $("h3").css({"background":"rgba(26, 24, 25, 0.637"});
@@ -83,3 +83,4 @@ $(function(){
     });
     
 });
+*/

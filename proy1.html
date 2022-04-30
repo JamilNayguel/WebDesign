@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domentou</title>
+    <title>Fly Travel Bolivia</title>
+    <link rel="icon" href="imagenes/TravelBoliviaLogo2.png">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Work+Sans&display=swap" rel="stylesheet"> 
-    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <link rel="stylesheet" href="css\proy1.css">
-    
+    <link rel="stylesheet" href="css/proy1.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascrip/proy1.js"></script>
     
     
 </head>
@@ -25,6 +27,7 @@
             <img src="imagenes/TravelBolivia.png" alt="logo">
         </div>
         <nav>
+            
             <div class="menu"><a href="#">Home</a></div>
             <div class="menu"><a href="#">Sitios</a></div>
             <div class="menu"><a href="#">Servicios</a></div>
@@ -38,15 +41,15 @@
         
         <div class="contenedor">
             <div class="slider">
-                <div class="item"> <a href="#cocha">Cochabamba</a></div>
-                <div class="item"> <a href="#santac">Santa Cruz</a></div>
-                <div class="item"> <a href="#lapaz">La Paz</a></div>
-                <div class="item"> <a href="#oruro">Oruro</a></div>
-                <div class="item"> <a href="#potosi">Potosí</a></div>
-                <div class="item"> <a href="#beni">Beni</a></div>
-                <div class="item"> <a href="#pando">Pando</a></div>
-                <div class="item"> <a href="#tarija">Tarija</a></div>
-                <div class="item"> <a href="#chuquisaca">Chuquisaca</a></div>
+                <div class="item"> <a href="#cocha" id="cb">Cochabamba</a></div>
+                <div class="item"> <a href="#santac" id="st">Santa Cruz</a></div>
+                <div class="item"> <a href="#lapaz" id="lp">La Paz</a></div>
+                <div class="item"> <a href="#oruro" id="or">Oruro</a></div>
+                <div class="item"> <a href="#potosi" id="pt">Potosí</a></div>
+                <div class="item"> <a href="#beni" id="bn">Beni</a></div>
+                <div class="item"> <a href="#pando" id="pd">Pando</a></div>
+                <div class="item"> <a href="#tarija" id="tj">Tarija</a></div>
+                <div class="item"> <a href="#chuquisaca" id="cq">Chuquisaca</a></div>
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -64,7 +67,7 @@
             </div>
             <div class="conten">
                 <h3>Crito de la Concordia</h3>
-                <div class="par1 dep1">
+                <div class="par1">
                     <p>Situado sobre el cerro San Pedro, El Cristo tiene el denominativo 
                         de la “Concordia”, significando el carácter integrador geográfico, 
                         político y social que tiene la ciudad y el departamento de Cochabamba, 
@@ -76,7 +79,7 @@
                         una monumental y bellísima obra escultora del Cristo de la Concordia.
                     </p>
                 </div>
-                <div class="par1 dep1">
+                <div class="par1">
                     <p>El Cristo de la Concordia tiene una estructura de hormigón armado con 
                         un alto de 34,20 mts. y un ancho de 6,00 mts. Es considerado el monumento 
                         más alto de Latinoamérica. Esta gigantesca imagen de Jesús está de pie, 
@@ -97,7 +100,7 @@
             
             <div class="conten">
                 <h3>Laguna La Angostura</h3>
-                <div class="par1 dep1">
+                <div class="par1">
                     <p>Desde 1928, en La Angostura, se realizaron estudios para la construcción 
                         de una presa que permita acumular el agua en el sector y que sirva de 
                         riego para los sembradíos de Quillacollo, Colcapirhua, Tiquipaya y Cercado, 
@@ -109,7 +112,7 @@
                         de forraje para ganado lechero, abarcando al 80 por ciento del total.
                     </p>
                 </div>
-                <div class="par1 dep1">
+                <div class="par1">
                     <p>Para todos  los que visitan Cochabamba en un fin de semana, una de las mejores 
                         opciones para desconectarse de la rutina es la represa de La Angostura, lugar 
                         donde el turismo, la gastronomía y su hermoso paisaje hacen de este uno de los 
@@ -323,7 +326,7 @@
         </div>
 
         <br><br><br><br><br><br><br><br>
-        <h2 id="potosi">Potosí</h2>
+        <h2 id="potosi" class="c5">Potosí</h2>
 
         <div class="departamento">
             <div class="imgen">
@@ -383,7 +386,7 @@
         </div>
 <!--.................................-->
         <br><br><br><br><br><br><br><br>
-        <h2 id="beni">Beni</h2>
+        <h2 id="beni" class="c6">Beni</h2>
 
        <div class="departamento">
             <div class="imgen">
@@ -440,7 +443,7 @@
         </div>
 
         <br><br><br><br><br><br><br><br>
-        <h2 id="pando">Pando</h2>
+        <h2 id="pando" class="c7">Pando</h2>
 
        <div class="departamento">
             <div class="imgen">
@@ -500,7 +503,7 @@
 
 
         <br><br><br><br><br><br><br><br>
-        <h2 id="tarija">Tarija</h2>
+        <h2 id="tarija" class="c8">Tarija</h2>
 
        <div class="departamento">
             <div class="imgen">
@@ -560,7 +563,7 @@
 
 
         <br><br><br><br><br><br><br><br>
-        <h2 id="chuquisaca">Chuquisaca</h2>
+        <h2 id="chuquisaca" class="c9">Chuquisaca</h2>
 
        <div class="departamento">
             <div class="imgen">
@@ -618,7 +621,6 @@
 
         <br><br><br><br><br><br><br><br>
 
-
     </main>
     
     
@@ -659,5 +661,6 @@
             <h3>© Nayguel finetwork 2022 / FlyTravelBolivia</h3>
         </div>
     </footer>
+    
 </body>
 </html>

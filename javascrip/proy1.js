@@ -7,3 +7,96 @@ $('.slider').slick({
     autoplaySpeed:2000,
     infinite: true,
 });
+
+
+$(function(){
+    
+
+    
+
+    if ($(window).width() > 800){
+		$('header nav').css({
+            'top': '-200px',
+			opacity: 0,
+			marginTop: 0
+		});
+
+		$('header nav').animate({
+			opacity: 1,
+			marginTop: '0px'
+		},3500);
+	}
+
+    if ($(window).width() > 800){
+		$('header img').css({
+			opacity: 0,
+			marginTop: 0
+		});
+
+		$('header img').animate({
+			opacity: 1,
+			marginTop: '-55px'
+		},3500);
+	}
+
+
+    //scroll con el carrusel
+
+	$('#cb').click(function(){
+
+        $('html, body').animate({scrollTop:740},'1000')
+    });
+	
+    $('#st').click(function(){
+
+        $('html, body').animate({scrollTop:2250},'1000')
+
+    });
+	
+    
+    $('#lp').click(function(){
+
+        $('html, body').animate({scrollTop:3690},'1000')
+    });
+
+    $('#or').click(function(){
+
+        $('html, body').animate({scrollTop:5200},'1000')
+
+    });
+	
+    $('#pt').click(function(){
+
+        $('html, body').animate({scrollTop:6635},'1000')
+
+    });
+	
+    
+    $('#bn').click(function(){
+
+        $('html, body').animate({scrollTop:8010},'1000')
+    });
+
+    $('#pd').click(function(){
+
+        $('html, body').animate({scrollTop:9220},'1000')
+
+    });
+	
+    $('#tj').click(function(){
+
+        $('html, body').animate({scrollTop:10516},'1000')
+
+    });
+	
+    
+    $('#cq').click(function(){
+
+        $('html, body').animate({scrollTop:11755},'1000')
+    });
+
+
+	
+
+
+});

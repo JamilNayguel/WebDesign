@@ -2,10 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: none;
-    
+    outline: none;   
 }
 
+ /*............Header..............*/
 header{
     background-image:url(https://images.pexels.com/photos/314860/pexels-photo-314860.jpeg);
     background-repeat:no-repeat;
@@ -67,7 +67,7 @@ nav{
 }
 .menu{
     color: #cfcfcf;
-    padding: 30px;
+    padding: 32px;
 }
 .menu a:hover{
     font-size: 25px;
@@ -79,13 +79,14 @@ nav{
     color: rgba(242, 243, 239, 0.829);
     font-size: 22px;
 }
+
+/*...............Main................*/
+
 main{
     
     background: #e4e0a4;
     width: 100%;
-    /*display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;*/
+    
 }
 
 h2{
@@ -98,15 +99,16 @@ h2{
 .c1{
     color: #4BC0C8;
 }
-.c2{
+.c2, .c6, .c7{
     color: #22af15;
 }
-.c3{
-    color: #c01010;
+.c3, .c5{
+    color: #c20707;
 }
-.c4{
-    color: #e72424;
+.c4, .c8, .c9{
+    color: #ee2b2b;
 }
+
 
 .departamento{
     width: 100%;
@@ -120,6 +122,11 @@ h2{
     align-items: center;
     
 }
+img:hover{
+    transition: all ease 0.5s;
+    transform: scale(1.02) translateY(-2px);
+}
+
 img{
     border-radius: 18px;
 }
@@ -136,6 +143,7 @@ img{
     width: 100%;
     text-align: center;
     padding: 15px;
+    color: #042158;
     font-family: 'Work Sans', sans-serif;
 }
 div.par1{
@@ -148,11 +156,6 @@ div.par1{
     -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
     -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
     border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    /*
-    -moz-border-image: -moz-linear-gradient(left, #f2709c 0%,  #ff9472 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #f2709c 0%, #ff9472 100%);
-    border-image: linear-gradient(to right, #f2709c 0%, #ff9472 100%);
-    */
     border-image-slice: 1;
 }
 
@@ -226,10 +229,7 @@ footer div li{
 
 
 
-/*...............................*/
-
-
-
+/*................Carrusel...............*/
 
 .contenedor{
     width: 80%;
