@@ -74,7 +74,7 @@ nav{
 }
 .menu a{
     text-decoration: none;
-    color: rgba(242, 243, 239, 0.829);
+    color: #f2f3efd3;
     font-size: 22px;
 }
 
@@ -82,7 +82,7 @@ nav{
 
 main{
     
-    background: #e4e0a4;
+    background: #e3dfa3;
     width: 100%;
     
 }
@@ -170,9 +170,12 @@ footer{
 }
 .men{
     background: rgba(7, 11, 29, 0.918);
-    width: 70%;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 footer h3{
@@ -192,10 +195,10 @@ footer a{
     color: #4BC0C8;
 }
 .op2 h3{
-    color: #e68af0 ;
+    color: rgb(230, 138, 240) ;
 }
 .op3 h3{
-    color: #FEAC5E;
+    color: #feac5e;
 }
 .op1{
     padding: 30px 50px;
@@ -216,11 +219,13 @@ footer div li{
 
 .autor{
     background: rgba(7, 11, 29, 0.918);
-    width: 30%;
+    width: 100%;
     padding: 20px;
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    
 }
 .autor h3{
     font-size: 16px;
@@ -257,7 +262,7 @@ footer div li{
 
 a{
     text-decoration: none;
-    color: rgba(240, 122, 26, 0.829);
+    color: #f07a1ad3;
     font-size: 25px;
 }
 
@@ -265,14 +270,14 @@ a{
     margin: 5px;
 }
 .slick-dots li.slick-active button::before{
-    color: #b95c40;
+    color: rgb(185, 92, 64);
 }
 .slick-dots li button::before{
     font-size: 16px;
 }
 .slick-next::before,
 .slick-prev::before{
-    color: #ff8159;
+    color: rgb(255, 129, 89);
     font-size: 20px;
 }
 .item :hover{
