@@ -127,6 +127,7 @@ img:hover{
 }
 
 img{
+    width: 100%;
     border-radius: 18px;
 }
 .conten{
@@ -158,7 +159,60 @@ div.par1{
     border-image-slice: 1;
 }
 
-*/
+/*..............Aside...............*/
+aside{
+    background: #e4e0a4;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Work Sans', sans-serif;
+}
+.contac{
+    background: #070b1d;
+    width: 40%;
+    padding: 20px;
+    justify-content: center;
+    
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image-slice: 1;
+}
+.ubic{
+    background: #070b1d;
+    width: 40%;
+    padding: 20px;
+
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image-slice: 1;
+}
+.contac h2{
+    
+    color: #4BC0C8;
+    
+}
+.ubic h2{
+    
+    color: #C779D0;
+    
+}
+
+.contac p, .ubic p{
+    color: #cfcfcf;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
 /*............footer..............*/
 footer{
     width: 100%;
@@ -376,6 +430,16 @@ a{
         transform: rotate(0deg);
         
     }
+    aside{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contac{
+        width: 70%;
+    }
+    .ubic{
+        width: 70%;
+    }
 
 }
 
@@ -418,12 +482,21 @@ a{
     
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
     .menu{
         padding: 10px;
     }
     .menu a:hover{
         font-size: 15px;
+    }
+    .contac{
+        width: 85%;
+    }
+    .ubic{
+        width: 85%;
+    }
+    .contac p, .ubic p{
+        font-size: 18px;
     }
 }
