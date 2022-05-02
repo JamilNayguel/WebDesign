@@ -242,7 +242,7 @@ footer li{
     list-style: none
 }
 footer a{
-    color: rgb(209, 185, 185);
+    color: rgb(221, 202, 202);
     font-size: 18px;
 }
 .op1 h3{
@@ -291,8 +291,7 @@ footer div li{
 
 .contenedor{
     width: 80%;
-    /*
-    height: 80px;*/
+    
     
 }
 .slider .item{
@@ -339,6 +338,7 @@ a{
     transition: all ease 0.3s;
     transform: scale(1.1) translateY(-5px);
 }
+
 
 /*.................MediaQ....................*/
 @media screen and (max-width: 1200px) {

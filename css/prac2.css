@@ -1,0 +1,27 @@
+header{
+    background: rgb(57, 233, 224);
+    text-align: center;
+}
+main{
+    background: rgb(233, 144, 186);
+}
+aside{
+    background: rgb(189, 240, 122);
+}
+footer{
+    background: rgba(28, 43, 38, 0.815);
+    color: rgb(255, 251, 247);
+    text-align: center;
+}
+.pr{
+    background: rgb(235, 203, 63);
+    text-align: center;
+}
+.sg{
+    background: rgb(160, 132, 236);
+    text-align: center;
+}
+.tr{
+    background: rgb(111, 241, 231);
+    text-align: center;
+}
