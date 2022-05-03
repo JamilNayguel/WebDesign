@@ -1,3 +1,49 @@
 a{
     color: white;
 }
+header, .ft{
+    background: rgb(27, 27, 27);
+    color: white
+}
+aside{
+    text-align: center;
+}
+.pr{
+    background: rgb(235, 203, 63);
+    text-align: center;
+}
+.sg{
+    background: rgb(160, 132, 236);
+    text-align: center;
+}
+.tr{
+    background: rgb(111, 241, 231);
+    text-align: center;
+}
+.wit{
+    background: rgb(15, 8, 36);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.ft{
+    
+    align-items: center;
+}
+.ft h3
+.ft li{
+    
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.ft a{
+    color: rgb(221, 202, 202);
+    font-size: 18px;
+    text-decoration: none;
+}
+.autor h3{
+    font-size: 14px;
+    
+    
+}

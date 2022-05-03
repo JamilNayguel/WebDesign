@@ -4,92 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <style>
-        *{
-            margin: 0;
-            margin: 0;
-            box-sizing: border-box;
-            outline: none;
-        }
-        body{
-            background-color: #eccccc;
-        }
-        .contenedor{
-            max-width: 1040px;
-            margin: 0 auto;
-        }
-        .slider .item{
-            background-color: rgba(244, 245, 209, 0.884);
-            box-shadow: 0 4px 5px #cfcfcf;
-            border-radius: 8px;
-            padding: 15px;
-            border: 3px solid rgba(180, 46, 129, 0.808);
-            text-align: center;
-            
-        }
-        a{
-            text-decoration: none;
-            color: rgba(240, 122, 26, 0.829);
-            font-size: 22px;
-        }
-        
-        .slider .slick-slide{
-            margin: 15px;
-        }
-        .slick-dots li.slick-active button::before{
-            color: #ff5722;
-        }
-        .slick-dots li button::before{
-            font-size: 12px;
-        }
-        .slick-next::before,
-        .slick-prev::before{
-            color: #ff8159;
-            font-size: 24px;
-        }
-        .item :hover{
-            display: block;
-            transition: all ease 0.3s;
-            transform: scale(1.1) translateY(-5px);
-        }
-    </style>
+    <title>Practica 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/prac2.css">
 </head>
 <body>
-    <main>
-        <div class="contenedor">
-            <div class="slider">
-                <div class="item" id="cbb"> <a href="#">Cochabamba</a></div>
-                <div class="item"> <a href="#">Santa Cruz</a></div>
-                <div class="item"> <a href="#">La Paz</a></div>
-                <div class="item"> <a href="#">Oruro</a></div>
-                <div class="item"> <a href="#">Potosí</a></div>
-                <div class="item"> <a href="#">Beni</a></div>
-                <div class="item"> <a href="#">Pando</a></div>
-                <div class="item"> <a href="#">Tarija</a></div>
-                <div class="item"> <a href="#">Chuquisaca</a></div>
+    <div class="container-fluid">
+        <header class="cabeza row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="imagenes/TravelBoliviaLogo2.png" alt="" width="50" height="50">
+                        </a>
+                      <a class="navbar-brand" href="#">Fly Travel Bolivia</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Departamentos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Cochabamba</a></li>
+                              <li><a class="dropdown-item" href="#">La Paz</a></li>
+                              <li><a class="dropdown-item" href="#">Santa Cruz</a></li>
+                              <li><a class="dropdown-item" href="#">Oruro</a></li>
+                              <li><a class="dropdown-item" href="#">Potosí</a></li>
+                              <li><a class="dropdown-item" href="#">Beni</a></li>
+                              <li><a class="dropdown-item" href="#">Pando</a></li>
+                              <li><a class="dropdown-item" href="#">Tarija</a></li>
+                              <li><a class="dropdown-item" href="#">Chuquisaca</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="container-fluid">
+                        <a class="navbar-brand"></a>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                      </div>
+                  </nav>
             </div>
-        </div>
-    </main>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        </header>
+        <section class="main row">
+            <main class="col-md-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="imagenes/carr3.png" class="d-block w-100" alt="img">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h4>Conoce toda Bolivia</h4>
+                          <p>Mira todos los destinos que ofrece Bolivia.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/carr2.png" class="d-block w-100" alt="img">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Visita el Salar de Uyuni</h5>
+                          <p>Uno de los destinos mas atractivos de Bolivia.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/carr1.png" class="d-block w-100" alt="img">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>La Ruta del Vino y el Singani</h5>
+                          <p>Sígue la ruta del vino y el singani por los viñedos de tarija.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </main>
+            <aside class="col-md-12">
+                <h2>aside</h2>
+                <h4>3 columnas</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima fugit dolorem, 
+                    accusamus placeat officiis sint error deleniti corrupti impedit temporibus quisquam 
+                    quibusdam odio unde, ad dolore officia? Atque, optio repudiandae. 
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellendus placeat 
+                    dolor in eveniet exercitationem quam. Modi quis nisi qui ratione reiciendis quam sit 
+                    nemo quaerat, dolore dolores officiis quia.
+                </p>
+            </aside>
+        </section>
+        <section class="partes row ">
+            <div class="pr col-md-4 ">
+                <div class="card align-self-center" style="width: 26.5rem;">
+                    <img src="imagenes/cocha1.png" class="card-img-top" alt="cocha1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="sg col-md-4">
+                <div class="card" style="width: 26.5rem;">
+                    <img src="imagenes/cocha1.png" class="card-img-top" alt="cocha1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="tr col-md-4">
+                <div class="card" style="width: 26.5rem;">
+                    <img src="imagenes/cocha1.png" class="card-img-top" alt="cocha1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      
+                    
+                    </div>
+                </div>
+            </div>
+        </section> 
+           
+        <section class="footer row">
+            <footer class="col-md-12">
+                <h2>footer</h2>
+                <h4>12 columnas</h4>
+                
+            </footer>
+        </section>
+            
+            
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </div>
     
-
-    <script>
-        $('.slider').slick({
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            dots:true,
-            arrows:true,
-            autoplay:true,
-            autoplaySpeed:2000,
-            infinite: true,
-
-        });
-
-    </script>
 </body>
 </html>
