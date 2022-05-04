@@ -25,7 +25,7 @@ aside{
     background: #feab5ed0;
     text-align: center;
 }
-.wit{
+/*.wit{
     background: rgb(15, 8, 36);
     color: white;
     text-align: center;
@@ -42,22 +42,11 @@ aside{
 .wit3{
     background: #feab5ed0;
     text-shadow: 0 0 10px rgb(0, 0, 0);
-}
+}*/
 .ft{
     align-items: center;
 }
-.ft h3
-.ft li{
-    
-    padding: 10px;
-    list-style: none;
-    text-decoration: none;
-}
-.ft a{
-    color: rgb(221, 202, 202);
-    font-size: 18px;
-    text-decoration: none;
-}
+
 .autor h3{
     font-size: 14px;
     
@@ -68,15 +57,58 @@ aside{
     text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .espacio1{
-    background-color: aqua;
-    width: 100%;
-    margin: 0;
+    background-color: #4bc0c82c;
+    
+}
+.espacio2{
+    background-color: #c779d02c;
+    
+}.espacio3{
+    background-color: #feab5e2c;
+    
 }
 .ft1{
     
-    padding: 30px;
+    padding: 20px 35px;
+    text-align: center;
 }
-.ft1 li{
+.boto{
+    background-color: #47bec7;
+}
+.boto1{
+    background-color: #a967b1;
+}
+.boto2{
+    background-color: #fc9a3e;
+}
+
+.ft1 li a{
     
     text-decoration: none;
+}
+.ft1 ul li{
+    color: rgb(221, 202, 202);
+    list-style-type: none;
+}
+.autor{
+    text-align: center;
+    padding: 10px;
+}
+.cor1{
+    color: #47bec7;
+}
+.cor2{
+    color: #a967b1;
+}
+.cor3{
+    color: #fc9a3e;
+}
+li .hob1:hover{
+    color: #47bec7;
+}
+li .hob2:hover{
+    color: #a967b1;
+}
+li .hob3:hover{
+    color: #fc9a3e;
 }
