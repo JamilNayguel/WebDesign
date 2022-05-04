@@ -1,9 +1,14 @@
 a{
     color: white;
 }
-header, .footer{
+header{
     background: rgb(27, 27, 27);
     color: white
+}
+.foot{
+    background: rgb(27, 27, 27);
+    color: white;
+    width: 101.5%;
 }
 aside{
     text-align: center;
@@ -62,6 +67,16 @@ aside{
     
     text-shadow: 0 0 10px rgb(0, 0, 0);
 }
-/*.espacio1{
-    background: #4bc0c8ce ;
-}*/
+.espacio1{
+    background-color: aqua;
+    width: 100%;
+    margin: 0;
+}
+.ft1{
+    
+    padding: 30px;
+}
+.ft1 li{
+    
+    text-decoration: none;
+}
