@@ -1,7 +1,7 @@
 a{
     color: white;
 }
-header, .ft{
+header, .footer{
     background: rgb(27, 27, 27);
     color: white
 }
@@ -9,25 +9,36 @@ aside{
     text-align: center;
 }
 .pr{
-    background: rgb(235, 203, 63);
+    background: #4bc0c8ce ;
     text-align: center;
 }
 .sg{
-    background: rgb(160, 132, 236);
+    background: #c779d0d0;
     text-align: center;
 }
 .tr{
-    background: rgb(111, 241, 231);
+    background: #feab5ed0;
     text-align: center;
 }
 .wit{
     background: rgb(15, 8, 36);
     color: white;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 16px;
+}
+.wit1{
+    background: #4bc0c8ce;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.wit2{
+    background: #c779d0d0;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.wit3{
+    background: #feab5ed0;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .ft{
-    
     align-items: center;
 }
 .ft h3
@@ -47,3 +58,10 @@ aside{
     
     
 }
+.sitio h4, .sitio p{
+    
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+/*.espacio1{
+    background: #4bc0c8ce ;
+}*/
