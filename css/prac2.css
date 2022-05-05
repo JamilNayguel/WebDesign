@@ -13,15 +13,18 @@ footer{
     color: rgb(255, 251, 247);
     text-align: center;
 }
+
 .pr{
+    background: #6cd1d8;
     
     text-align: center;
 }
 .sg{
-    
+    background: #e18feb;
     text-align: center;
 }
 .tr{
+    background: #e2a56c;
     
     text-align: center;
 }
