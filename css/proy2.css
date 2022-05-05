@@ -7,8 +7,8 @@ header{
 }
 .foot{
     background: rgb(27, 27, 27);
-    color: white;
-    width: 101.5%;
+    color: #ffffff;
+    width: 101.8%;
 }
 aside{
     text-align: center;
@@ -25,24 +25,7 @@ aside{
     background: #feab5ed0;
     text-align: center;
 }
-/*.wit{
-    background: rgb(15, 8, 36);
-    color: white;
-    text-align: center;
-    border-radius: 16px;
-}
-.wit1{
-    background: #4bc0c8ce;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
-}
-.wit2{
-    background: #c779d0d0;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
-}
-.wit3{
-    background: #feab5ed0;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
-}*/
+
 .ft{
     align-items: center;
 }
