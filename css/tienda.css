@@ -41,6 +41,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
 }
 .cartones{
     width: 100%;
@@ -151,6 +152,11 @@ aside{
     border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
     border-image-slice: 1;
 }
+.pos0{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 .pos1{
     display: flex;
     justify-content: center;
@@ -172,21 +178,140 @@ footer{
 .fotlist{
     width: 33.3%;
     text-align: center;
-  }
-  .fotlist ul{
+}
+.fotlist ul{
     list-style-type: none;
-  }
-  .contfot{
+}
+.contfot{
     display: flex;
     flex-wrap: wrap;
-  }
-  .icono{
+}
+.icono{
     font-size: 35px;
     text-decoration: none; 
     color: #fff;
     padding: 5px;
-  }
-  .autor{
+}
+.autor{
     text-align: center;
     font-size: 15px;
-  }
+}
+
+
+@media screen and (max-width: 768px){
+    /*promacion*/
+    .posicion{
+        width: 100%;
+    }
+    .promo{
+        padding: 10px 0;
+        
+        
+    }
+    .cartones{
+        
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    /*contador*/
+    .cuenta{
+        width: 100%;
+        
+        
+    }
+    .simply-section{
+        
+        width: 140px;
+        height: 140px;
+        
+    }
+    .simply-amount{
+        display: block;
+        font-size: 30px;
+    }
+      .simply-word{
+        font-size: 15px;
+    }
+
+    /*galeria*/
+    .cartas{
+        width: 48%;
+    }
+    /*aside*/
+    .espacio{
+        width: 50%;
+    }
+    .pos1{
+        justify-content: flex-end;
+    }
+    .pos2{
+        justify-content: flex-start;
+    }
+    /*footer*/
+    .fotlist{
+        width: 50%;
+        text-align: center;
+    }
+    .contfot{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+
+    /*contador*/
+    
+    .simply-section{
+        
+        width: 140px;
+        height: 140px;
+        
+    }
+    .simply-section{
+        
+        width: 90px;
+        height: 90px;
+        
+    }
+    .simply-amount{
+        display: block;
+        font-size: 25px;
+    }
+      .simply-word{
+        font-size: 15px;
+    }
+
+    /*galeria*/
+    .cartas{
+        width: 90%;
+    }
+    
+    /*aside*/
+    .espacio{
+        width: 80%;
+    }
+    .pos0{
+        justify-content: flex-end;
+    }
+    .pos1{
+        justify-content: flex-start;
+    }
+    .pos2{
+        justify-content: flex-end;
+    }
+
+    /*footer*/
+    .fotlist{
+        width: 100%;
+    }
+    .contfot{
+        justify-content: center;
+    }
+    .autor h5{
+        font-size: 15px;
+    }
+}
