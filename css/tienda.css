@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ....................header...................... */
+header{
+    width: 100%;
+    display: flex;
+    
+}
+
+
+
+
+
+/* ....................main...................... */
+main{
+    width: 100%;
+    
+}
+.carrusel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.posicion{
+    width: 80%;
+}
+/*...avisos que se usan en cada seccion...*/
+.avisos{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+/*.....apartado de promociones.....*/
+.promo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cartones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.circular{
+    border-radius: 100%;
+  }
+.cartonc{
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image-slice: 1;
+}
+/*.....apartado para el contador.....*/
+.espacont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.cuenta{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+  /*contador estilos*/
+.simply-section{
+    background: #fff;
+    width: 160px;
+    height: 160px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image-slice: 1;
+}
+.simply-amount{
+    display: block;
+    font-size: 38px;
+}
+  .simply-word{
+    font-size: 15px;
+}
+  /*boton invisible*/
+.canvabot{
+    visibility: hidden;
+}
+  /*.....apartado de galeria.....*/
+.geleriap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cartas{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    /*..color de fondo detras las cards..*/
+.cor1{
+    background: #47bec7;
+}
+.cor2{
+    background: #a967b1;
+}
+.cor3{
+    background: #fc9a3e;
+}    
+    /*..color info dentro del cards..*/
+.espacio1{
+    background-color: #4bc0c82c; 
+}
+.espacio2{
+    background-color: #c779d02c;
+}
+.espacio3{
+    background-color: #feab5e2c;
+}
+/* ....................aside...................... */
+aside{
+    width: 100%;
+        
+}
+/*.....seccion de contacto.....*/
+.contac{
+    width: 100%;
+}
+.espacio{
+    width: 33.33%;
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    border-image-slice: 1;
+}
+.pos1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pos2{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+/* ....................footer...................... */
+footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #1b1b1b;
+    color: rgb(255, 255, 255);
+}
+/*.....espacio el del footer.....*/
+.fotlist{
+    width: 33.3%;
+    text-align: center;
+  }
+  .fotlist ul{
+    list-style-type: none;
+  }
+  .contfot{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icono{
+    font-size: 35px;
+    text-decoration: none; 
+    color: #fff;
+    padding: 5px;
+  }
+  .autor{
+    text-align: center;
+    font-size: 15px;
+  }
