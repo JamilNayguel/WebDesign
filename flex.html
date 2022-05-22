@@ -8,6 +8,7 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
     <style>
         *{
@@ -161,6 +162,30 @@
             flex-wrap: wrap;
         }
 
+        .fotlist{
+          width: 33.3%;
+          text-align: center;
+        }
+        .fotlist ul{
+          list-style-type: none;
+        }
+        .contfot{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .icono{
+          font-size: 35px;
+          text-decoration: none; 
+          color: #fff;
+          padding: 5px;
+        }
+        .autor{
+          text-align: center;
+          font-size: 15px;
+          
+          
+        }
+
     </style>
 </head>
 <body>
@@ -262,7 +287,7 @@
         <div class="promo">
             <div class="cartones">
                 <div class="card cartonc" style="width: 18rem;">
-                    <img src="imagenes/cocha1.png" class="card-img-top circular" alt="...">
+                    <img src="imagenes/cocha1.png" class="card-img-top circular" alt="..." width="40px" height="250px">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
@@ -581,8 +606,39 @@
     <br><br><br>
     
     <footer>
-        <div>
-            <h2>espacio para el footer</h2>
+        <div class="contfot">
+          <div class="fotlist">
+            <h4>espacio para lista</h4>
+            <ul>
+              <li>numero1</li>
+              <li>numero2</li>
+              <li>numero3</li>
+            </ul>
+              
+          </div>
+          <div class="fotlist">
+            <h4>espacio para lista</h4>
+            <ul>
+              <li>numero1</li>
+              <li>numero2</li>
+              <li>numero3</li>
+            </ul>
+              
+          </div>
+          <div class="fotlist">
+            <h4>Redes Sociales</h4>
+            <a href="#"><i class="icono fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="icono fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="icono fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="icono fa-brands fa-youtube"></i></a>
+            
+              
+          </div>
+        </div>
+        <div class="autor">
+          <br><br>
+          <h5>© software finetwork 2022 / FlyTravelBolivia</h5>
+
         </div>
     </footer>
 
