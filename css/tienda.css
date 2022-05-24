@@ -53,13 +53,13 @@ main{
 .circular{
     border-radius: 100%;
   }
-.cartonc{
+/* .cartonc{
     border: 5px solid transparent;
     -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
     -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
     border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
     border-image-slice: 1;
-}
+} */
 /*.....apartado para el contador.....*/
 .espacont{
     width: 100%;
@@ -114,6 +114,12 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+.espap{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #fff;
 }
     /*..color de fondo detras las cards..*/
 .cor1{
@@ -198,6 +204,7 @@ footer{
 }
 
 
+/* ....................Mediaquerys...................... */
 @media screen and (max-width: 768px){
     /*promacion*/
     .posicion{
@@ -275,6 +282,7 @@ footer{
         
         width: 90px;
         height: 90px;
+        margin: 0 6px;
         
     }
     .simply-amount{
