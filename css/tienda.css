@@ -25,6 +25,9 @@ main{
     display: flex;
     justify-content: center;
 }
+.textcor{
+    text-shadow: 0 0 5px #000000, 0 0 30px #000000, 0 0 30px #000000;
+}
 .posicion{
     width: 80%;
 }
@@ -41,6 +44,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background: #474747;
     
 }
 .cartones{
@@ -52,49 +56,50 @@ main{
 }
 .circular{
     border-radius: 100%;
+    border: 5px solid #fc9a3e;
   }
-/* .cartonc{
-    border: 5px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    border-image-slice: 1;
-} */
+.colorr{
+    background: #474747;
+}
 /*.....apartado para el contador.....*/
 .espacont{
     width: 100%;
+    
     display: flex;
     justify-content: center;
+    margin: 0px;
     
 }
 .cuenta{
-    width: 60%;
+    width: 85%;
     display: flex;
     justify-content: center;
     
 }
   /*contador estilos*/
 .simply-section{
-    background: #fff;
-    width: 160px;
-    height: 160px;
-    margin: 0 20px;
+    background: #474747;
+    width: 155px;
+    height: 155px;
+    margin: 0 18px;
     border-radius: 5px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     border: 5px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -moz-border-image: -moz-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
+    border-image: linear-gradient(to right, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
     border-image-slice: 1;
 }
 .simply-amount{
+    color: #fff;
     display: block;
     font-size: 38px;
 }
   .simply-word{
+    color: #fff;
     font-size: 15px;
 }
   /*boton invisible*/
@@ -113,23 +118,26 @@ main{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    align-content: space-between;
     justify-content: space-evenly;
 }
+
 .espap{
     content: '';
     width: 100%;
     height: 10px;
     background: #fff;
 }
+
     /*..color de fondo detras las cards..*/
 .cor1{
-    background: #47bec7;
+    background: #FF6464;
 }
 .cor2{
-    background: #a967b1;
+    background: #FF8264;
 }
 .cor3{
-    background: #fc9a3e;
+    background: #FFAA64;
 }    
     /*..color info dentro del cards..*/
 .espacio1{
@@ -141,10 +149,54 @@ main{
 .espacio3{
     background-color: #feab5e2c;
 }
+
+
 /* ....................aside...................... */
 aside{
     width: 100%;
+    background: #474747;
         
+}
+.corte{
+    content: '';
+    width: 100%;
+    height: 90px;
+    background: #474747;
+    clip-path: polygon(0 0, 100% 45%, 100% 100%, 0% 100%);
+}
+.corte1{
+    content: '';
+    width: 100%;
+    height: 90px;
+    background: #474747;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 45%);
+}
+.corte2{
+    content: '';
+    width: 100%;
+    height: 90px;
+    background: #474747;
+    clip-path: polygon(0 0, 100% 45%, 100% 100%, 0 55%);
+}
+.corte3{
+    content: '';
+    width: 100%;
+    height: 90px;
+    background: #fff;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 55%);
+}
+.fotespac{
+    content: '';
+    width: 100%;
+    height: 90px;
+    
+}
+.novograd{
+    background: #474747;
+    color: #fff;
+}
+.espapcio{
+    background: #474747;
 }
 /*.....seccion de contacto.....*/
 .contac{
@@ -153,9 +205,9 @@ aside{
 .espacio{
     width: 33.33%;
     border: 5px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
-    border-image: linear-gradient(to right, #4BC0C8 0%, #C779D0 50%, #FEAC5E 100%);
+    -moz-border-image: -moz-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
+    border-image: linear-gradient(to right, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
     border-image-slice: 1;
 }
 .pos0{
@@ -173,6 +225,25 @@ aside{
     justify-content: flex-end;
     flex-wrap: wrap;
 }
+.espaciocop1{
+    background-color: #39c7d1be; 
+}
+.espaciocop2{
+    background-color: #db3ea7be;
+}
+.espaciocop3{
+    background-color: #fc9d10be;
+}
+
+.botcol1{
+    background-color: #49e1ec; 
+}
+.botcol2{
+    background-color: #ee5a8b;
+}
+.botcol3{
+    background-color: #f39912;
+}
 /* ....................footer...................... */
 footer{
     width: 100%;
@@ -185,8 +256,25 @@ footer{
     width: 33.3%;
     text-align: center;
 }
+.fotlist h4, .neon{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 5px #ff8000, 0 0 30px #ff8000, 0 0 30px #ff8000;
+}
 .fotlist ul{
     list-style-type: none;
+}
+.fotlist a{
+    font-size: 20px;
+    text-decoration: none; 
+    color: #fff;
+}
+
+.fotlist a:hover{
+    color: #fc9a3e;
+    font-size: 25px;
+    transition: all ease 0.5s;
+    transform: scale(1.1) translateY(-5px);
 }
 .contfot{
     display: flex;
@@ -197,6 +285,30 @@ footer{
     text-decoration: none; 
     color: #fff;
     padding: 5px;
+}
+.fotlist a .cop0 :hover{
+    color: #3b5998;
+    font-size: 43px;
+    transition: all ease 0.2s;
+    transform: scale(1.1) translateY(-5px);
+}
+.fotlist a .cop1 :hover{
+    color: #e6c866;
+    font-size: 43px;
+    transition: all ease 0.2s;
+    transform: scale(1.1) translateY(-5px);
+}
+.fotlist a .cop2 :hover{
+    color: #1DA1F2;
+    font-size: 43px;
+    transition: all ease 0.2s;
+    transform: scale(1.1) translateY(-5px);
+}
+.fotlist a .cop3 :hover{
+    color: #FF0000;
+    font-size: 43px;
+    transition: all ease 0.2s;
+    transform: scale(1.1) translateY(-5px);
 }
 .autor{
     text-align: center;
