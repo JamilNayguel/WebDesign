@@ -56,8 +56,15 @@ main{
 }
 .circular{
     border-radius: 100%;
-    border: 5px solid #fc9a3e;
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe9813,
+            0 0 0.8rem #fe9813,
+            0 0 2.8rem #fe9813,
+            inset 0 0 1.3rem #fe9813;
   }
+
 .colorr{
     background: #474747;
 }
@@ -87,11 +94,13 @@ main{
     text-align: center;
     align-items: center;
     justify-content: center;
-    border: 5px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
-    border-image: linear-gradient(to right, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
-    border-image-slice: 1;
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 1rem #13cffe,
+            0 0 0.8rem #13cffe,
+            0 0 1.8rem #13cffe,
+            inset 0 0 1.3rem #13cffe;
 }
 .simply-amount{
     color: #fff;
@@ -204,11 +213,34 @@ aside{
 }
 .espacio{
     width: 33.33%;
-    border: 5px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
-    border-image: linear-gradient(to right, #5ae1eb 0%, #ee5a8b 50%, #f3b65a 100%);
-    border-image-slice: 1;
+    
+}
+.neoncont1{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #13cffe,
+            0 0 0.8rem #13cffe,
+            0 0 2.8rem #13cffe,
+            inset 0 0 1.3rem #13cffe;
+}
+.neoncont2{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+}
+.neoncont3{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe9013,
+            0 0 0.8rem #fe9013,
+            0 0 2.8rem #fe9013,
+            inset 0 0 1.3rem #fe9013;
 }
 .pos0{
     display: flex;
@@ -236,13 +268,40 @@ aside{
 }
 
 .botcol1{
-    background-color: #49e1ec; 
+    background-color: #13cffe; 
 }
 .botcol2{
-    background-color: #ee5a8b;
+    background-color: #bc13fe; 
 }
 .botcol3{
-    background-color: #f39912;
+    background-color: #fe9013; 
+}
+.botcol1:hover{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #13cffe,
+            0 0 0.8rem #13cffe,
+            0 0 2.8rem #13cffe,
+            inset 0 0 1.3rem #13cffe;
+}
+.botcol2:hover{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+}
+.botcol3:hover{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe9013,
+            0 0 0.8rem #fe9013,
+            0 0 2.8rem #fe9013,
+            inset 0 0 1.3rem #fe9013;
 }
 /* ....................footer...................... */
 footer{
@@ -256,10 +315,58 @@ footer{
     width: 33.3%;
     text-align: center;
 }
-.fotlist h4, .neon{
+
+.neon1{
     color: #fff;
     font-family: 'Pacifico', cursive;
-    text-shadow: 0 0 5px #ff8000, 0 0 30px #ff8000, 0 0 30px #ff8000;
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 16px #fff,
+      0 0 30px #13cffe,
+      0 0 40px #13cffe,
+      0 0 60px #13cffe,
+      0 0 80px #13cffe,
+      0 0 90px #13cffe;
+}
+.neon2{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 16px #fff,
+      0 0 30px #bc13fe,
+      0 0 40px #bc13fe,
+      0 0 60px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe;
+}
+.neon3{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+      0 0 4px #e6e4e4,
+      0 0 11px #e6e4e4,
+      0 0 16px #e6e4e4,
+      0 0 30px #fe9013,
+      0 0 40px #fe9013,
+      0 0 60px #fe9013,
+      0 0 80px #fe9013,
+      0 0 90px #fe9013;
+}
+.fotlist h4{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+      0 0 4px #e6e4e4,
+      0 0 11px #e6e4e4,
+      0 0 16px #e6e4e4,
+      0 0 30px #bc13fe,
+      0 0 40px #bc13fe,
+      0 0 60px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe;
 }
 .fotlist ul{
     list-style-type: none;
@@ -271,9 +378,9 @@ footer{
 }
 
 .fotlist a:hover{
-    color: #fc9a3e;
+    color: #cb92f1;
     font-size: 25px;
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
     transform: scale(1.1) translateY(-5px);
 }
 .contfot{
@@ -287,25 +394,25 @@ footer{
     padding: 5px;
 }
 .fotlist a .cop0 :hover{
-    color: #3b5998;
+    color: rgb(41, 143, 226);
     font-size: 43px;
     transition: all ease 0.2s;
     transform: scale(1.1) translateY(-5px);
 }
 .fotlist a .cop1 :hover{
-    color: #e6c866;
+    color: #ffd23d;
     font-size: 43px;
     transition: all ease 0.2s;
     transform: scale(1.1) translateY(-5px);
 }
 .fotlist a .cop2 :hover{
-    color: #1DA1F2;
+    color: #48b3f5;
     font-size: 43px;
     transition: all ease 0.2s;
     transform: scale(1.1) translateY(-5px);
 }
 .fotlist a .cop3 :hover{
-    color: #FF0000;
+    color: #ff2222;
     font-size: 43px;
     transition: all ease 0.2s;
     transform: scale(1.1) translateY(-5px);
