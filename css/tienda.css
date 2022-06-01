@@ -3,7 +3,13 @@
     margin: 0;
 }
 
-
+body::-webkit-scrollbar{
+    width: 8px;
+    background: #acacac;
+}
+body::-webkit-scrollbar-thumb{
+    background: #474747;
+}
 /* ....................header...................... */
 header{
     width: 100%;
@@ -235,6 +241,15 @@ aside{
             0 0 2.8rem #fe9013,
             inset 0 0 1.3rem #fe9013;
 }
+.neoncont4{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe4524,
+            0 0 0.8rem #fe4524,
+            0 0 2.8rem #fe4524,
+            inset 0 0 1.3rem #fe4524;
+}
 .pos0{
     display: flex;
     justify-content: flex-start;
@@ -269,6 +284,9 @@ aside{
 .botcol3{
     background-color: #fe9013; 
 }
+.botcol4{
+    background-color: #fe133a; 
+}
 .botcol1:hover{
     border: 3px solid #fff;
     box-shadow: 0 0 .2rem #fff,
@@ -296,6 +314,16 @@ aside{
             0 0 2.8rem #fe9013,
             inset 0 0 1.3rem #fe9013;
 }
+.botcol4:hover{
+    border: 3px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe133a,
+            0 0 0.8rem #fe133a,
+            0 0 2.8rem #fe133a,
+            inset 0 0 1.3rem #fe133a;
+}
+
 /* ....................footer...................... */
 footer{
     width: 100%;
@@ -347,6 +375,19 @@ footer{
       0 0 60px #fe9013,
       0 0 80px #fe9013,
       0 0 90px #fe9013;
+}
+.neon4{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+      0 0 4px #e6e4e4,
+      0 0 11px #e6e4e4,
+      0 0 16px #e6e4e4,
+      0 0 30px #fe133a,
+      0 0 40px #fe133a,
+      0 0 60px #fe133a,
+      0 0 80px #fe133a,
+      0 0 90px #fe133a;
 }
 .fotlist h4{
     color: #fff;
